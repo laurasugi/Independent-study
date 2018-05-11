@@ -1,0 +1,148 @@
+@charset "utf-8";
+@import url("navbar main stylesheet.css");
+/* CSS Document */
+
+
+/*Sets break points for screen re-flowing*/
+
+	@media only screen and (max-device-width: 1024px) {
+		.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, {
+			background-attachment: scroll;
+			
+		}
+	}
+
+	
+
+body {
+	width: 100%;
+	margin: 0;
+	background-color: #f9dbc2;	
+	font: 400 15px/1.8 Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
+	width: 100%;
+	opacity: 0.775;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 100%;
+}
+
+/*Controls the first image on the "about" page.  Change link url to change picture. */
+	.bgimg-1 {
+		min-height: 400px;
+		background-image: url("../Images/crowd.jpg");
+		width: 100%;
+	}
+
+/*Controls the first image on the "contact" page.  Change link url to change picture. */
+	.bgimg-2 {
+		min-height: 460px;
+		background-image: url("../Images/logo page.png");
+	}
+
+/*Controls the first image on the "Golden Rose" page.  Change link url to change picture. */
+	.bgimg-3 {
+		min-height: 500px;
+		background-image: url("../Images/rose.jpg");
+	}
+
+/*Controls the first image on the "Locals only" page.  Change link url to change picture. */
+	.bgimg-4 {
+		min-height: 450px;
+		background-image: url("../Images/locals info.png");
+	}
+
+/*Controls the first image on the "Three" page.  Change link url to change picture. */
+	.bgimg-5 {
+		min-height: 500px;
+		background-image: url("../Images/three.jpg");
+	}
+
+/*Controls the first image on the "Night Owl" page.  Change link url to change picture. */
+	.bgimg-6 {
+		min-height: 500px;
+		background-image: url("../Images/night owl.jpg");
+	}
+
+/*Controls the second image on the "Night Owl" page.  Change link url to change picture. */
+	.bgimg-7 {
+		min-height: 500px;
+		background-image: url("../Images/casino.jpg");
+	}
+
+/*Controls the third image on the "Night Owl" page.  Change link url to change picture. */
+	.bgimg-8 {
+		min-height: 500px;
+		background-image: url("../Images/liquor.jpg");
+	}
+
+/*Controls the first image on the "Badlander" page.  Change link url to change picture. */
+	.bgimg-9 {
+			
+			min-height: 500px;
+			background-image: url("../Images/badlander nye.jpg");
+		}
+
+.hero {
+	width: 100%;
+    padding: 40px 70px;
+    color: #000;
+    background-color: #F9DBC2;
+    text-align: center;
+    text-align: justify;
+}
+
+.caption {
+    position: absolute;
+	/*Controls position of the main caption over the first picture on the page*/
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.description-container {
+    position: relative;
+	
+}
+
+
+/*Controls the appearance of text box.*/
+	.description {
+		padding: 1% 80px;
+		color: #000;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+		/*Changes background color of text box*/
+		background-color: #F9DBC2;
+		text-align: center;
+		
+	}
+
+
+/*Controls the main text over the first image. */
+	.caption span.border {
+
+		padding: 20px;
+		color: #FFF0DB;
+		font-size: 40px;
+		letter-spacing: 7px;
+	}
+
+
+/*Controls all h2 elements in HTML doc.  These are the headings in the text boxes*/
+	h2 {
+		color: #111;
+		text-transform: uppercase;
+		font: 20px; 
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		letter-spacing: 5px;
+	}
+/* Controls all paragraph elemets in the HTML docs.  These are the body text areas.*/
+	p {
+		text-align: center;
+	}
+

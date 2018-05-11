@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Sets breakpoints for screen re-flowing*/
+
+	@media only screen and (max-device-width: 1024px) {
+    
+	}
+
+/*Prevents white border on page*/
+
+	body {
+		margin: 0;
+	}
+
+/*Settings for background image*/
+
+	.bgimg-1{
+		min-height: 600px;
+		position: relative;
+		opacity: 0.80;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position:center;
+		background-size:contain;
+		background-color:black;   
+		
+	/*Use to change background image*/
+		background-image: url(../Images/badlander.png)
+	}
+
+
+/* Controls main text*/
+	.caption span.border {
+		padding: 20px;
+		color: #FFF0DB;
+		font-size: 60px;
+		letter-spacing: 7px;
+		position:absolute;
+			top: 322px;
+			width: 100%;
+		text-align: center;
+	}
+
+

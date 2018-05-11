@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Controls formatting for background image.*/
+	.hero-image{
+		/*This link selects the background image*/
+		background-image:url(../Images/pbr.jpg);
+		height: 100%;
+		width:100%;
+		background-position:center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position:fixed;
+		background-attachment: fixed;
+		background-color: black;
+		overflow: visible;
+	}
+
+/*This controls the apearance and position of the bar logo icons*/
+	.image-links{
+		padding-top: 10%;
+		padding-left: 40%;	
+		vertical-align: top;
+	}
+
+
+/*This controls the opacity layer over the background image*/
+
+	body, .hero-image{
+		opacity: 0.90;
+		filter: alpha(opacity=50);
+		padding-left: 8%;
+	}
+
+
+/*Sets the background color of the page.  Only visible if you are using an image that does not cover the entire page.*/
+body {
+	background-color: black
+	
+}
+
+
+

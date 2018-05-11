@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* This CSS Document handles all styling for the nav bars */
+
+.menuitem{
+	position: fixed;
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+		padding: 1px;
+		width: 100%;
+		z-index: 10;
+}
+
+.menuitem {
+    background-color: #191919;
+    overflow: hidden;
+	border: 2px solid black;
+}
+
+/*Controls the positioning, text alignment and options of the nav bar buttons*/
+
+.menuitem a {
+    float:left;
+    display:block;
+    color: #FFF0DB;
+    text-align: center;
+    padding: 10px 8% ;
+    text-decoration: none;
+    font-size: 25px;
+	letter-spacing: 4px;
+}
+
+/*Changes color of the box that appears when you hover the mouse over an option.*/
+.menuitem a:hover {
+    background-color: #777777;
+    
+}
+
+
+#content {overflow: auto;}
+
+

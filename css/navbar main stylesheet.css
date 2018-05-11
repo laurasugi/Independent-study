@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+	
+
+/* This CSS Document handles all styling for the main nav bars */
+
+
+	
+
+/* Links inside the dropdown */
+	.dropdown-content a {
+		text-align: right;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	  
+	}
+
+
+/* Navbar container */
+	.navbar {
+	  overflow:visible;
+	  background-color: #333;
+	  font-family: Arial;
+	  
+	}
+
+
+/* The dropdown container */
+	.dropdown {
+	  float: left;
+	  
+	}
+
+/* Dropdown button */
+	.dropdown .dropbtn {	
+	  font-size: 25px;
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: 20px 20px;
+	  background-color: inherit;
+	  font-family: inherit; 
+	  margin: 0; 
+	  letter-spacing: 4px;
+	}
+
+/*Changes color of the box that appears when you hover the mouse over an option.*/
+	.navbar a:hover, .dropdown:hover .dropbtn {
+	  background-color: #777777;
+	}
+
+/* Dropdown content (hidden by default) */
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #ADADAD;
+	  min-width: 160px;
+	  max-width:350px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+		
+	}
+
+
+/* highlights items when you hover over them in the dropdown menu*/
+	.dropdown-content a:hover {
+	  background-color: #E8E8E8;
+	}
+
+/*Changes color of the box that appears when you hover the mouse over "Menu".*/
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+
+/*Main navbar controls*/
+	.menuitem{
+		position: fixed;
+			top: 0px;
+			left: 0px;
+			margin: 0px;
+			padding: 1px;
+			width: 100%;
+			z-index: 10;
+	}
+
+	.menuitem {
+		background-color: #191919;
+		overflow:inherit;
+		border: 2px solid black;
+	}
+
+/*Controls the positioning, text alignment and options of the nav bar buttons*/
+
+	.menuitem a {
+	float: right;
+	display: block;
+	color: #000000;
+	padding: 10px 2%;
+	text-decoration: none;
+	font-size: 25px;
+	letter-spacing: 4px;
+	}
+
+/*Changes color of the box that appears when you hover the mouse over a menu item.*/
+	.menuitem a:hover {
+	background-color: #777777;
+	text-align: left;
+
+	}
+
+
+	#content {overflow: auto;}
